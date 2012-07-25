@@ -1,15 +1,16 @@
 body {
-	background-color: #545352;
+	  background-color: #545352;
     font-size: 12px;
+    color: #FFFFFF;
     font-family: 'Helvetica', 'Arial';
 }
 
 img#splash {
-	display: block;
+	  display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-a:link {color: #cccccc; }
-a:visited {color: #999999;  }
+a:link { color: #cccccc; }
+a:visited { color: #999999;}
 
