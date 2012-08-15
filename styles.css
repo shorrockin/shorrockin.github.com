@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+html {
+    font-size: 100%;  
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+}
+
+body {
+    max-width: 700px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+}
+
+a {
+    color: #839758;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header styling */
+
+header {
+    margin: 2rem 1rem 2rem 1rem;
+    padding-left: 1rem;
+    border-left: 1rem solid #839758;
+}
+
+header > h1 {
+    margin: 0rem;
+    font-size: 1rem;
+}
+
+header > small {
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    color: #777777;
+}
+
+header > aside {
+    float: right;
+    letter-spacing: 0.25em;
+}
+
+header > aside a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* basic section tyling */
+
+section {
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    margin: 2rem 1rem 1rem 1rem;
+    background: white;
+    padding: 1.5rem 1.75rem 1.5rem 1.75rem;
+    line-height: 1.5rem;
+}
+
+section p.image {
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* footer styling */
+
+footer {
+    margin: 1em 1rem 1rem 1rem;
+    text-align: center;
+    color: #777777;
+    font-size: 0.5rem;
+}
+
+
+
